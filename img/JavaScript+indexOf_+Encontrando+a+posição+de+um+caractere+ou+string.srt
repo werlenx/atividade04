@@ -1,0 +1,280 @@
+1
+00:00:06,769 --> 00:00:13,199
+você sabe para que serve o método
+
+2
+00:00:09,240 --> 00:00:15,480
+indexof indexof é um método javascript
+
+3
+00:00:13,199 --> 00:00:17,460
+utilizado para recuperar a posição da
+
+4
+00:00:15,480 --> 00:00:18,269
+primeira ocorrência de um elemento em um
+
+5
+00:00:17,460 --> 00:00:21,300
+stream
+
+6
+00:00:18,269 --> 00:00:24,329
+caso esse elemento não exista é retornar
+
+7
+00:00:21,300 --> 00:00:25,439
+do valor - um para demonstrar seu
+
+8
+00:00:24,329 --> 00:00:28,528
+funcionamento
+
+9
+00:00:25,439 --> 00:00:30,990
+observe-se exemplo considera que temos
+
+10
+00:00:28,528 --> 00:00:31,768
+essa página simples à direita e à
+
+11
+00:00:30,989 --> 00:00:34,558
+esquerda
+
+12
+00:00:31,768 --> 00:00:36,420
+podemos ver o seu código note que
+
+13
+00:00:34,558 --> 00:00:39,949
+declaramos duas caixas de texto
+
+14
+00:00:36,420 --> 00:00:43,140
+definidas com haidê stream e sub cindy
+
+15
+00:00:39,950 --> 00:00:45,780
+definimos também um botão que ao ser
+
+16
+00:00:43,140 --> 00:00:49,378
+clicado chamar a função localizar stream
+
+17
+00:00:45,780 --> 00:00:52,140
+e temos ainda o spam por enquanto em
+
+18
+00:00:49,378 --> 00:00:55,530
+branco e que tem como função apresentar
+
+19
+00:00:52,140 --> 00:00:57,840
+o resultado nessa página podemos
+
+20
+00:00:55,530 --> 00:01:00,689
+informar um texto ea stream que
+
+21
+00:00:57,840 --> 00:01:03,960
+desejamos localizar dentro desse texto
+
+22
+00:01:00,689 --> 00:01:06,780
+ao clicar no botão verificar chamamos a
+
+23
+00:01:03,960 --> 00:01:09,900
+função localizar stream
+
+24
+00:01:06,780 --> 00:01:11,129
+mas o que faz essa função vejamos o seu
+
+25
+00:01:09,900 --> 00:01:13,409
+código
+
+26
+00:01:11,129 --> 00:01:15,539
+nas duas primeiras linhas observe que
+
+27
+00:01:13,409 --> 00:01:18,750
+recuperamos os valores informados nas
+
+28
+00:01:15,540 --> 00:01:23,460
+caixas de texto extingue e sub síndico
+
+29
+00:01:18,750 --> 00:01:25,500
+logo após chamamos a função indexof com
+
+30
+00:01:23,459 --> 00:01:27,629
+essa chamada estamos verificando a
+
+31
+00:01:25,500 --> 00:01:30,900
+posição da subtribo gui dance dentro
+
+32
+00:01:27,629 --> 00:01:33,298
+dessa strini então atribuímos o
+
+33
+00:01:30,900 --> 00:01:34,469
+resultado desse processamento a variável
+
+34
+00:01:33,299 --> 00:01:37,200
+posição
+
+35
+00:01:34,469 --> 00:01:39,379
+agora nessa estrutura de condição se o
+
+36
+00:01:37,200 --> 00:01:41,549
+valor de posição foi igual ao menos 1
+
+37
+00:01:39,379 --> 00:01:42,688
+significa que a substituir não foi
+
+38
+00:01:41,549 --> 00:01:44,970
+encontrada
+
+39
+00:01:42,688 --> 00:01:46,559
+caso contrário é informar a posição
+
+40
+00:01:44,969 --> 00:01:49,709
+desse elemento
+
+41
+00:01:46,560 --> 00:01:52,228
+vejamos a execução desse código no
+
+42
+00:01:49,709 --> 00:01:56,839
+primeiro input em nossa página informa
+
+43
+00:01:52,228 --> 00:01:59,968
+stream aprendendo javascript nadav mídia
+
+44
+00:01:56,840 --> 00:02:02,118
+e no segundo pote informe apenas a
+
+45
+00:01:59,968 --> 00:02:05,069
+palavra e javascript
+
+46
+00:02:02,118 --> 00:02:07,349
+após clicar em verificar você vai notar
+
+47
+00:02:05,069 --> 00:02:10,139
+que foi retornado a posição 1 11
+
+48
+00:02:07,349 --> 00:02:13,780
+exatamente a posição da primeira letra
+
+49
+00:02:10,139 --> 00:02:15,909
+da palavra javascript agora
+
+50
+00:02:13,780 --> 00:02:18,430
+procuramos por javascript com toda a
+
+51
+00:02:15,909 --> 00:02:20,049
+palavra escrita e minúsculo veremos o
+
+52
+00:02:18,430 --> 00:02:22,420
+resultado diferente
+
+53
+00:02:20,050 --> 00:02:23,890
+isso acontece porque ainda que sofre é
+
+54
+00:02:22,419 --> 00:02:26,530
+case sensitivity
+
+55
+00:02:23,889 --> 00:02:29,229
+e neste caso é retornar do valor - um
+
+56
+00:02:26,530 --> 00:02:33,189
+visto que o java script da nossa strong
+
+57
+00:02:29,229 --> 00:02:35,530
+não é igual ao da sub sing note em nosso
+
+58
+00:02:33,189 --> 00:02:36,459
+código que quando o valor for igual ao
+
+59
+00:02:35,530 --> 00:02:39,009
+menos um
+
+60
+00:02:36,459 --> 00:02:41,650
+a mensagem retornado à é elemento não
+
+61
+00:02:39,009 --> 00:02:44,649
+encontrado no texto exatamente o que foi
+
+62
+00:02:41,650 --> 00:02:47,170
+exibido em nossa página
+
+63
+00:02:44,650 --> 00:02:48,819
+como você pode notar ainda que sofre
+
+64
+00:02:47,169 --> 00:02:51,458
+retorna à posição da primeira como
+
+65
+00:02:48,819 --> 00:02:53,769
+receber um termo em um stream sendo
+
+66
+00:02:51,459 --> 00:02:56,500
+comumente utilizado quando é preciso
+
+67
+00:02:53,769 --> 00:02:58,810
+verificar a existência de um termo ou
+
+68
+00:02:56,500 --> 00:03:03,150
+mais precisamente quando for preciso
+
+69
+00:02:58,810 --> 00:03:03,150
+saber a posição deste em um texto
+
+70
+00:03:05,449 --> 00:03:10,359
+[Música]
+

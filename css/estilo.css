@@ -1,0 +1,12 @@
+header li{
+    display: inline;  
+}
+header li a{
+    text-decoration: none;
+}
+div.container{
+    margin: 0 auto;
+    width: 950px;
+    text-align: justify;
+    
+}
